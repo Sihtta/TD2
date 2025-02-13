@@ -11,15 +11,15 @@ unEspresso = new Lait(unEspresso);
 unEspresso = new Sucre(unEspresso);
 unEspresso = new Caramel(unEspresso);
 
-console.log(`${unEspresso.getDescription()} : ${unEspresso.cout().toFixed(2)}€`);
+console.log(`Première Boisson : ${unEspresso.getDescription()} : ${unEspresso.cout().toFixed(2)}€`);
 
 let unThe = new The();
 unThe = new Caramel(unThe);
 unThe = new Lait(unThe);
 
-console.log(`${unThe.getDescription()} : ${unThe.cout().toFixed(2)}€`);
+console.log(`Deuxième Boisson : ${unThe.getDescription()} : ${unThe.cout().toFixed(2)}€`);
 
 let unMilkShake = new Milkshake();
 unMilkShake = new MarshmallowFondu(unMilkShake);
 
-console.log(`${unMilkShake.getDescription()} : ${unMilkShake.cout().toFixed(2)}€`);
+console.log(`Troisième Boisson : ${unMilkShake.getDescription()} : ${unMilkShake.cout().toFixed(2)}€`);
